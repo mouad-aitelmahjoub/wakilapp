@@ -17,7 +17,7 @@ export const Stats = () => {
          initial={{x:300,opacity:0}} 
          className="statsRight">
              <h1 className='statsTitle'>We provide you the best experience</h1>
-             <p className='statsText'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus harum vel facilis iure, doloribus pariatur reprehenderit sunt? Hic, sed iure nemo voluptates earum incidunt accusamus consectetur. Ducimus quas ex eum!</p>
+             <p className='statsText'>Lorem ipsum dolor hgggggg sit, amet consectetur adipisicing elit. Repellendus harum vel facilis iure, doloribus pariatur reprehenderit sunt? Hic, sed iure nemo voluptates earum incidunt accusamus consectetur. Ducimus quas ex eum!</p>
              <div className="statsDataContainer">
 
                  <div className=" dataWrap dataYear">
