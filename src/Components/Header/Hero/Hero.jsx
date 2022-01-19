@@ -16,7 +16,7 @@ export const Hero = () => {
     className='hero-title'>WAKIL AGENCY FOR SELLING HOUSES</motion.h1>
     <motion.p
     animate={{x:0,opacity:1}} initial={{x:-300,opacity:0}} transition={{delay:1,duration:3}}
-    >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quisquam dolorem iste est doloribus, sint ducimus quia iure excepturi, pariatur et blanditiis in dicta quaerat illo similique eum eveniet mollitia!</motion.p>
+    >Lorem ipsum dolor, sit amet consectetur adipisicing blablo. Autem quisquam dolorem iste est doloribus, sint ducimus quia iure excepturi, pariatur et blanditiis in dicta quaerat illo similique eum eveniet mollitia!</motion.p>
     
     <motion.div className='btnContactwrap'
     initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{delay:3,duration:5,type: "spring", stiffness: 100 }}>
