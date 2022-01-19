@@ -1,0 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+}
+:root{
+  --primary-color:#D35400;
+  --secondary-color:#2C3E50;
+}
+ul{
+  list-style: none;
+}
