@@ -14,7 +14,7 @@ export const Menu = () => {
                 <ul className="headre-Menu">
                         <motion.li
                         whileHover={animationStyle}
-                         className="menuList">Home</motion.li>
+                        className="menuList">Home</motion.li>
                         <motion.li 
                           whileHover={animationStyle}
                         className="menuList">Features</motion.li>
