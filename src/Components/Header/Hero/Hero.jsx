@@ -15,7 +15,7 @@ export const Hero = () => {
     animate={{opacity:1}} initial={{opacity:0}} transition={{delay:1,duration:3}}
     className='hero-title'>WAKIL AGENCY FOR SELLING HOUSES</motion.h1>
     <motion.p
-    animate={{x:0,opacity:1}} initial={{x:-300,opacity:0}} transition={{delay:1,duration:3}}
+    animate={{opacity:1}} initial={{opacity:0}} transition={{delay:1.5,duration:3}}
     >Lorem ipsum dolor, sit amet consectetur adhhhhhhh blablo. Autem quisquam dolorem iste est doloribus, sint ducimus quia iure excepturi, pariatur et blanditiis in dicta quaerat illo similique eum eveniet mollitia!</motion.p>
     
     <motion.div className='btnContactwrap'
@@ -29,7 +29,7 @@ export const Hero = () => {
     animate={{y:0,opacity:1}} initial={{y:-100,opacity:0}} transition={{delay:3,duration:3}}
   className='arow-wrap'>
   <motion.i
-  animate={{y:10}}transition={{delay:4,duration:3,type: "spring", stiffness: 500 ,yoyo:Infinity}}
+  animate={{y:10}}transition={{delay:3,duration:3,type: "spring", stiffness: 500 ,yoyo:Infinity}}
   
   className="fas arowIcon fa-chevron-down"></motion.i>
   </motion.span>

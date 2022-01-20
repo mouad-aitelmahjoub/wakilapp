@@ -1,7 +1,7 @@
 import React from 'react';
 import './stats.css'
 import { motion } from 'framer-motion';
-import imgsl from '../../../img/img6.jpg'
+import imgsl from '../../img/img6.jpg'
 
 export const Stats = () => {
   return <div className='statsContainer'>
