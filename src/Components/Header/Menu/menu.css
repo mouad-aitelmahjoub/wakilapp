@@ -1,71 +1,37 @@
-.headre-container{
-    height: 50px;
-    padding: 10px 50px;
-    z-index: 100;
-    width: 100vw;
-    position: fixed;
+.headre-container {
+  height: 50px;
+  padding: 10px 50px;
+  z-index: 100;
+  width: 100vw;
+  position: fixed;
 }
-.headre-wraper{
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 2px;
+.headre-wraper {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
 }
-.headre-left{
-    display: flex;
-    align-items: center;
-    width: 60%;
-    justify-content: space-between;
+.headre-left {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
 }
-.logo{
-    font-weight: bold;
-    text-decoration: underline var(--primary-color);
-    cursor: pointer;
+.logo {
+  font-weight: bold;
+  text-decoration: underline var(--primary-color);
+  cursor: pointer;
 }
-.headre-Menu{
-    display: flex;
-    font-size: 16px;
-    /*font-weight: bold; */    
+.headre-Menu {
+  display: flex;
+  font-size: 16px;
+  /*font-weight: bold; */
 }
-.menuList{
-    margin-right: 20px;
-    /* color: var(--secondary-color); */
-    color: whitesmoke;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-@media  (max-width:700px) {
-    .btn-header{
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: 25px;
-    }
-    .headre-container{
-        border: oldlace 1px solid;
-        width: 100%;
-        height: 250px;
-    }
-    .headre-left{
-        width: 100%; 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .headre-Menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-}
-@media  (height:0px){
-    .headre-container{
-        top: -50px;
-
-    }
+.menuList {
+  margin-right: 20px;
+  /* color: var(--secondary-color); */
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 3px;
 }
